@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sort</title>
+</head>
+<body>
+<script>
+    let x = [2,7,3,12,20,15];
+    document.write("Gía trị phần tử x gồm: "+ x+ "<br>");
+    let aMax = x[0]; // dat aMax la gia tri dau tien cua x.
+    let luuTru =0;
+    let i;
+    for(i=0; i< x.length; i++)
+    {
+        if (x[i]> aMax){
+            aMax = x[i];
+            luuTru = i;
+        }
+        else {
+        }
+    }
+    document.write("Gía trị lớn nhất là: "+aMax+ " ở vị trí phần tử số:  "+ luuTru);
+
+</script>
+</body>
+</html>
